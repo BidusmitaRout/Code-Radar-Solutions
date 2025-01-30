@@ -2,8 +2,8 @@
 
 int main() {
     float num;
+    printf("enter the number= :");
     scanf("%f", num);
-    num = int(input("Enter the number: "))
-    printf("%d", num);
+    printf("you entered: %d", num);
     return 0;
 }
